@@ -1,2 +1,3 @@
 1. Null, undefined, NaN, type of
-2. Sobre operadores y condiciones en JS.
+2. Que son y cuales operadores existen.
+3. Leer sobre los condicionales en JS.
