@@ -1,5 +1,5 @@
 Realizar un programa que calcule el area y el perimetro de 3 figuras distintas. 
-Dependiendo de la figura que indique el usuario (cuadrado, rectangulo isoceles y triangulo)
+Dependiendo de la figura que indique el usuario (cuadrado, rectangulo y triangulo isoceles)
 
 Dimensiones requeridas
 base

@@ -1,0 +1,2 @@
+1. Null, undefined, NaN, type of
+2. Sobre operadores y condiciones en JS.
