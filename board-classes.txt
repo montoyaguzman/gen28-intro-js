@@ -1,0 +1,7 @@
+POR QUE ES IMPORTANTE LA LOGICA PARA LOS PROGRAMADORES
+
+1. Entender problemas de la vidfa real y codificar.
+2. Negociar y tratar con clientes / usuarios / scrum master / product owner / project manager.
+3. Diagnosticar problemas.
+4. Es un softskill
+

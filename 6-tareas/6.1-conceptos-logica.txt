@@ -1,0 +1,30 @@
+1. Que es la logica y mencionar 3 problemas que han resuelto con logica.
+2. Listar los pasos con que resolviste 1 de esos problemas.
+3. Lenguaje natural, diagrama de flujo y que es pseudocodigo.
+
+IR AL CINE CON AMIGOS 
+paso1
+paso2
+paso3
+
+PASOS PARA IR AL CINE A VER UNA PELICULA
+1.	Elegir al cine que se ira cinepolis o cinemex
+2.	Escoger que película ir a ver
+3.	Ver precios en cartelera en línea
+4.	Escoger el día 
+5.	Ver precios de combos del cine elegido
+6.	Escoger el formato de la película y horario
+7.	Ver el presupuesto para ir al cine
+8.	Si me alcanza para ir al cine ir al paso nueve si no ir al paso 15
+9.	Si elegí cinepolis comprare los boletos en taquilla sino los puedo comprar en línea    sin afectar mi presupuesto.
+==== Vestirse?? salir de casa?? ====
+10.	Tomar Metrobus al cine
+11.	Si compre los boletos en línea los muestro para entrar a la sala sino me dirijo a la taquilla y compro lo boletos.
+12.	Compro en la dulcería
+13.	Entro a la sala.
+==== salir del cine, salir de la plaza ====
+14.	Regreso a casa si es antes de las 12:00 AM TOMO METROBUS SINO TOMO TAXI.
+15.	FIN
+
+Se realiza un algoritmo para resolver un problema a partir de una definicion. 
+Se puede hacer con lenguaje natural, diagrama de flujo o pseudocodigo (tan especificos que nos permitan entender que vamos a codificar).
