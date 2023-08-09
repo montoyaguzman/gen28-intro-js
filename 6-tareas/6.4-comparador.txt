@@ -1,0 +1,3 @@
+1. Dado 3 numeros ingresados por el usuario, decir cual es el mayor y cual es el menor.
+2. Crear un programa que reciba un nombre y salude al usuario. Considere que si el nombre 
+tiene menos de 3 letras, se le diga al usuario "nombre invalido".
