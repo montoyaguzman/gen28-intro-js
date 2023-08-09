@@ -5,3 +5,9 @@ POR QUE ES IMPORTANTE LA LOGICA PARA LOS PROGRAMADORES
 3. Diagnosticar problemas.
 4. Es un softskill
 
+Buena practica
+Es una convencion que se adopta para hacer las cosas siempre de esa manera.
+Debido a que son mas comprensibles y mantenibles.
+
+Standard
+Fijo en alguna norma o certificacion y siempre debe ser asi.
