@@ -1,24 +1,41 @@
 var operatorFirst = 150;
 var operatorSecond = 30;
 
+// Operadores de asignacion
+// =    Asignacion
+// +=   Asignacion de adicion
+// -=   Asignacion de resta
 
 // Operadores aritmeticos
-// + - * / ** = % -- ++
+// +    Suma
+// -    Resta
+// *    Multiplicacion
+// /    Division
+// **   Potencia
+// %    Modulo
+// --   Decremento
+// ++   Incremento
 
+// Operadores de comparacion
+// ==   Comparacion de igualdad de valor "8" == 8 TRUE 
+// ===  Comparacion de igualdad de valor Y TIPO DE VARIABLE "8" === 8 FALSE
+// !=   Validar diferencia de valores
+// !==  Validar diferencia de valores Y TIPO DE VARIABLE
+// <    Menor 8 < 10 TRUE
+// <=   Menor o igual 100 <= 100 TRUE
+// >    Mayor
+// >=   Mayor igual
+
+// Operadores logicos (estudiar tablas de verdad)
+// Conjuncion unir dos condiciones con AND (&&)
+// Conjuncion unir dos condiciones con AND (||)
+// && AND condition1 && condition2
+// || OR condition1 || condition2
+// !  Negacion 
+// !!
 
 
 var operator = '+';
-/**
- * Sintaxis
- */
-// if (condicion) {
-//     // sencences executes condicion === true
-// } else if (condicion2) {
-//     // sencences executes condicion2 === true
-// } else {
-//     // sencences executes condicion1 === false y condicion2 === false
-// }
-
 var result = 0;
 if (operator === '+') {
     // hoisting: subir declaraciones de variables, aun si usar var result
