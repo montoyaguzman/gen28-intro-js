@@ -23,5 +23,5 @@ while (initPosition < titles.length) { // condition
 // }
 
 for(var i = 0; i < titles.length; i++) {
-    document.write(`<li> ${titles[initPosition]} </li>`); // sentences
+    document.write(`<li> ${titles[i]} </li>`); // sentences
 }
