@@ -1,1 +1,1 @@
-1. Crear un arreglo de objetos de videos de youtube y mostrar sus datos en un console.log (literall template)
+1. Crear un arreglo de objetos de videos de youtube y mostrar sus datos en un console.log (literal template)

@@ -1,0 +1,100 @@
+1. Crear un programa que de acuerdo a tu año de nacimiento te diga a que generacion perteneces.
+
+// Boomers: 1946-1964. 
+// Generación X: 1965-1980. 
+// Millennials: 1981-1996. 
+// Generación Z: 1997-2012
+
+var stringYear = prompt("Año de nacimiento: ");
+var year = parseInt(stringYear);
+
+if (year >= 1946 && year <= 1964) {
+  console.log("boomers");
+} else if (year >= 1965 && year <= 1980) {
+  console.log("gen x");
+} else if (year >= 1981 && year <= 1996) {
+  console.log("millenials");
+} else if (year >= 1997 && year <= 2012) {
+  console.log("gen z");
+} else {
+  console.log("no se brow... antes no habia eso jajaja")
+}
+
+/*
+    case year >= 1946 && year <= 1964
+    ???
+*/
+
+2. Mostrar los valores que son de tipo numerico del siguiente arreglo.
+[40, {}, 'NaN', NaN, 50, 10, 20, 14, 55, undefined, 2]
+
+// [40, {}, 'NaN', NaN, 50, 10, 20, 14, 55, undefined, 2]
+
+var array = [40, {}, 'NaN', NaN, 50, 10, 20, 14, 55, undefined, 2];
+
+var i = 0;
+while(i < array.length) {
+  // if (typeof array[i] === 'number') {
+  if(!isNaN(array[i])) {
+  // if (typeof array[i] === 'number' && array[i] !== NaN) { // error
+  // console.log(NaN === NaN) false
+    console.log(array[i]);
+  }
+  i++;
+}
+
+
+3. Recorrer el arreglo de frutas e imprimir aquellas que si tienen stock
+[
+    { name: 'mango', hasInStock: true },
+    { name: 'orange', hasInStock: true },
+    { name: 'strawberry', hasInStock: false },
+    { name: 'pear', hasInStock: true },
+    { name: 'apple', hasInStock: false },
+]
+
+// Ejemplo 1
+var fruits = [
+    { name: 'mango', hasInStock: true },
+    { name: 'orange', hasInStock: true },
+    { name: 'strawberry', hasInStock: false },
+    { name: 'pear', hasInStock: true },
+    { name: 'apple', hasInStock: false },
+];
+
+for(var i = 0; i < fruits.length; i++) {
+  if (fruits[i].hasInStock === true) {
+    console.log(fruits[i].name); 
+  }
+}
+
+// Ejemplo 2
+var fruits = [
+    { name: 'mango', hasInStock: true },
+    { name: 'orange', hasInStock: true },
+    { name: 'strawberry', hasInStock: false },
+    { name: 'pear', hasInStock: true },
+    { name: 'apple', hasInStock: false },
+];
+
+for(var i = fruits.length - 1; i >= 0; i--) {
+  if (fruits[i].hasInStock) {
+    console.log(fruits[i].name); 
+  }
+}
+
+// Ejemplo 3
+var fruits = [
+    { name: 'mango', hasInStock: true },
+    { name: 'orange', hasInStock: true },
+    { name: 'strawberry', hasInStock: false },
+    { name: 'pear', hasInStock: true },
+    { name: 'apple', hasInStock: false },
+];
+
+for(var i = fruits.length - 1; i >= 0; i--) {
+  var fruit = fruits[i]; // iterador
+  if (fruit.hasInStock) {
+    console.log(fruit.name); 
+  }
+}

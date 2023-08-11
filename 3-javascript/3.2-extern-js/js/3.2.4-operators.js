@@ -67,3 +67,14 @@ if (residuo === 0) {
 } else {
     console.log(`${numberOne} NO es par`);
 }
+
+// Otro ejemplo de operadores
+let n1 = 10;
+let n2 = 20;
+if (n1 <= n2) {
+    // < y <= Menor y menor igual
+    // > y >= Mayor y mayor igual
+    // == Igual (compara valor de la variable)
+    // === Exactamente igual (compara el valor de la variable y tipo de dato)
+    console.log('dentro del if');
+}

@@ -1,0 +1,26 @@
+1. Hacer un programa que reciba el sueldo mensual y de acuerdo al sueldo te DOMStringMap
+a que tipo de tarjeta de credito tienes acceso.
+NOTAS
+Mas de $50,000 le toca tarjeta platinum
+Mas de $20,000 le toca tarjeta oro
+Mas de $5,000 le toca tarjeta basica
+
+Consideraciones
+Resolver el problema anterior tanto con switch como con if.
+
+2. Hacer una ficha con los opeeradores mas importantes de JS y poniendo un ejemplo propio que sea entendible.$20
+
+3. Investigar y hacer ejemplos de los operadores &&, || y !
+
+4. Dado el siguiente arreglo [1, 45, 23, 40, 12, 33, 290] imprimir todos los numeros divisibles entre 3.
+Se recomienda resolverlo tanto con while como con for
+
+5. Dado el siguiente arreglo [1, 45, 23, 40, 12, 33, 290] imprimir todos los numeros que no son divibles entre 6.
+Se recomienda resolverlo con while y con for
+Se recomienda resolverlo tanto con while como con for
+
+6. Dado el siguiente arreglo [20, 99, 12, 21, {}, 19, 34, "90", undefined, [] ]
+Imprimir todos los numeros pares
+Saltarse la validacion cuando el valor sea un objeto o arreglo vacio
+Si algun valor es string romper el ciclo y decirle al usuario que hay un texto en el arreglo
+Se recomienda resolverlo tanto con while como con for
