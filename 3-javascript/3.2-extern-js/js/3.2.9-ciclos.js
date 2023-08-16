@@ -25,3 +25,9 @@ while (initPosition < titles.length) { // condition
 for(var i = 0; i < titles.length; i++) {
     document.write(`<li> ${titles[i]} </li>`); // sentences
 }
+
+// var i = 0;
+// for(; i < titles.length; ) {
+//     document.write(`<li> ${titles[i]} </li>`); // sentences
+//     i++;
+// }
