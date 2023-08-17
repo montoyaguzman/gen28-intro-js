@@ -1,0 +1,2 @@
+1. Con apoyo el la doc de bootstrap familiarizarse con el funcionamiento y catalogo de componentes que tiene.
+2. Maquetar el proyecto de la kata 1 con estilos de bootstrap.
