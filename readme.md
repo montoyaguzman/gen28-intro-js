@@ -81,7 +81,7 @@ Las variables se usan para almacenar datos un espacio especifico. Generalmente e
   * Number (int, float, double).
   * Boolean.
 * **Complejas o de objeto:** Pueden guardar más de un solo dato.
-  * **Objetos:** Son como un *diccionario* donde lo de claras con corchetes normales `{}` y se accede a sus propiedades median `objName.propName` o bien `objName['propName`'].
+  * **Objetos:** Son como un *diccionario* donde lo de claras con corchetes normales `{}` y se accede a sus propiedades median `objName.propName` o bien `objName['propName']`.
   * **Arreglos:** Son *listas* o *colecciones* de elementos donde lo declaras con corchetes cuadrados `[]` y accedes a ellos desde su indice.
 
 #### Valores por defecto de una variable
