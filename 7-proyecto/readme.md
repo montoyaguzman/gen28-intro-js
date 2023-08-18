@@ -30,6 +30,7 @@ Un cliente podrá loggearse, ver su información personal, hacer depositos y ret
 
 1. [Proyectos V1](https://docs.google.com/document/d/1mKmbM77cIsuS-J3gmjK3VQA-pWQYKZvYvBSftueG3Mo/edit)
 2. [Proyectos V2](https://docs.google.com/document/d/1bsA3xkoErYwrnWIq7WcEDRjeJ3jFv_-4e0iwcSJRYT8/edit)
+3. [Ejemplo para hacer navegación entre paginas.](https://github.com/montoyaguzman/nav-html)
 
 <br/>
 <br/>

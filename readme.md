@@ -236,12 +236,14 @@ JavaScript en conjunto con la Web APi nos brinda un set de funciones para poder 
 Se puede realizar de dos formas:
 
 * **document.getElementBy:** Funciona con un string con el nombre de el elemento al que queremos acceder.
-  * document.getElementById: Obteniene un elemento HTML con dicho id.
-  * document.getElementByClassName: Obtiene una colección de etiquetas HTML que coincidan con el nombre de clase indicado.
-  * document.getElementByTagName: Obtiene una colección de etiquetas HTML que coinciden con el nombre de la etiqueta.
+  * **document.getElementById:** Obteniene un elemento HTML con dicho id.
+  * **document.getElementByClassName:** Obtiene una colección de etiquetas HTML que coincidan con el nombre de clase indicado.
+  * **document.getElementByTagName:** Obtiene una colección de etiquetas HTML que coinciden con el nombre de la etiqueta.
 * **document.querySelector:** Funciona como selectores tipo CSS.
-  * document.querySelector: Obteniene un elemento HTML con dicho id.
-  * document.querySelectorAll: Obtiene un Node List de todos elementos que coniciden con la clase o etiqueta indicada.
+  * **document.querySelector:** Obteniene un elemento HTML con dicho id.
+  * **document.querySelectorAll:** Obtiene un Node List de todos elementos que coniciden con la clase o etiqueta indicada.
+
+Revisar ejemplo en código [aquí](./5-manipulacion-dom/5.1-acceso-elementos).
 
 #### Modificación del DOM
 
