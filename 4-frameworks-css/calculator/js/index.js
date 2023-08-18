@@ -11,9 +11,11 @@ buttonElement.addEventListener('click', function(e) {
     const num1Element = document.getElementById('num1');
     // document.getElementsByTagName
     // document.getElementsByClassName
-    const num2Element = document.querySelector('#num2');
+    const num2Element = document.querySelector('num2');
     const num1 = parseFloat(num1Element.value);
     const num2 = parseFloat(num2Element.value);
+
+    // const num1 = parseFloat(document.querySelector('#num1').value);
 
     let result = 0;
     console.log(operationSymbolType)
