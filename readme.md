@@ -68,7 +68,6 @@ Un algoritmo es un conjunto de acciones que especifican la secuencia de operacio
 * **Pseudocodigo:** Es una forma de expresar los distintos pasos que va a realizar un programa de la forma más parecida a un lenguaje de programación (utlizando palabras clave). El pseudocodigo no puede ejecutarse directamente un ordenador ya que solo es una representacion para facilitar la solucion.
 * **Código:** Es la solución de un problema en algun lenguaje de programación.
 
-
 #### Variables
 
 Las variables se usan para almacenar datos un espacio especifico. Generalmente es porque las necesitaremos utilizar en varias partes del código.
@@ -86,7 +85,7 @@ Las variables se usan para almacenar datos un espacio especifico. Generalmente e
 
 #### Valores por defecto de una variable
 
-Los valores por defecto representan el valor con el que se debe inicializar cada tipo de variable cuando no se conoce su valor especifico. Es una buena practica inicializar todas nuestras variables por defecto. 
+Los valores por defecto representan el valor con el que se debe inicializar cada tipo de variable cuando no se conoce su valor especifico. Es una buena practica inicializar todas nuestras variables por defecto.
 
 El **valor por defecto** de cada tipo de dato es:
 
@@ -193,10 +192,9 @@ La explicación de los temas listados a continuación se encuenta en código en 
 * Ambito de vida de una variable (scope), let y const.
 * Hoisting.
 
-
 ### Frameworks CSS
 
-Existen herramientas que nos facilitan el desarrollo. Estas herramientas son **código gratuito** o **libre** **reutilizable** hecho por empresas o comunidades de desarrollo de software para el uso comun de los devs. 
+Existen herramientas que nos facilitan el desarrollo. Estas herramientas son **código gratuito** o **libre** **reutilizable** hecho por empresas o comunidades de desarrollo de software para el uso comun de los devs.
 
 Existen de dos tipos principales:
 
@@ -217,7 +215,80 @@ Cómo hasta este punto ya se sabe más del desarrollo HTML/CSS y de JS apenas se
 
 ### Manipulacion del DOM
 
-working...
+#### Modelo de carga del DOM
+
+![1692396334066](image/readme/1692396334066.png)
+
+**El DOM** de un **HTML** es un **modelo de objetos** que
+
+JavaScript en conjunto con la Web APi nos brinda un set de funciones para poder hacer interactivos nuestros sitios. Con estas funciones podemos hacer cosas como:
+
+1. Leer los elementos HTML existentes.
+2. Obtener valores, atributos y contenido de los elementos.
+3. Crear nuevos elementos.
+4. Eliminar elementos.
+5. Agregar contenido, atributos, clases a los elementos.
+6. Agregar estilos dinámicamente.
+7. Actualizar vistas, escuchar eventos y manejar la lógica.
+
+#### Acceso a elemento HTML
+
+Se puede realizar de dos formas:
+
+* **document.getElementBy:** Funciona con un string con el nombre de el elemento al que queremos acceder.
+  * document.getElementById: Obteniene un elemento HTML con dicho id.
+  * document.getElementByClassName: Obtiene una colección de etiquetas HTML que coincidan con el nombre de clase indicado.
+  * document.getElementByTagName: Obtiene una colección de etiquetas HTML que coinciden con el nombre de la etiqueta.
+* **document.querySelector:** Funciona como selectores tipo CSS.
+  * document.querySelector: Obteniene un elemento HTML con dicho id.
+  * document.querySelectorAll: Obtiene un Node List de todos elementos que coniciden con la clase o etiqueta indicada.
+
+#### Modificación del DOM
+
+![](https://lh3.googleusercontent.com/78e735EPGIfXFqWyFnJgU0lKJHA3iq7KdX4BQ2Vk6ikAYU0dS6IjQZjA4jBWvcEDvHyhhD2kJY6hWZP1ebpnglPXQaf3URNb_xyPecfDwMI6i96Uvc7aWpAcKsfZudck940qiP4q1lmqBV3z0wTaeTVRhw=s2048)
+
+#### Eventos
+
+#### Event interface
+
+#### Listado de eventos
+
+A continuación se lista los eventos más comunes en el uso cotidiano del desarrollo web.
+
+| **Tipo**     | **Evento HTML** | **Evento JS** | **Descripción** |
+| ------------------ | --------------------- | ------------------- | ---------------------- |
+| **Body**     | onload                | load                |                        |
+|                    | onunload              | unload              |                        |
+| **Forms**    | onchange              | change              |                        |
+|                    | onblur                | blur                |                        |
+|                    | onfocus               | focus               |                        |
+|                    | onreset               | reset               |                        |
+|                    | onselect              | select              |                        |
+|                    | onsubmit              | submit              |                        |
+|                    | oninvalid             | invalid             |                        |
+|                    | oninput               | input               |                        |
+| **Keyboard** | onkeydown             | keydown             |                        |
+|                    | onkeypress            | keypress            |                        |
+|                    | onkeyup               | keyup               |                        |
+| **Mouse**    | onclick               | click               |                        |
+|                    | ondbclick             | dbclick             |                        |
+|                    | onmouseover           | mouseover           |                        |
+|                    | onmousedown           | mousedown           |                        |
+|                    | onmousemove           | mousemove           |                        |
+|                    | onmouseout            | mouseout            |                        |
+|                    | onmouseup             | mouseup             |                        |
+|                    | onscroll              | scroll              |                        |
+|                    | onresize              | resize              |                        |
+| **Media**    | onabort               | abort               |                        |
+| **Others**   | oncopy                | copy                |                        |
+|                    | oncut                 | cut                 |                        |
+|                    | onpaste               | paste               |                        |
+|                    | ondrop                | drop                |                        |
+|                    | ononline              | online              |                        |
+|                    | onoffline             | offline             |                        |
+|                    | onshow                | show                |                        |
+|                    | onstorage             | storage             |                        |
+|                    | onwheel               | wheel               |                        |
 
 ### Presentaciones
 
