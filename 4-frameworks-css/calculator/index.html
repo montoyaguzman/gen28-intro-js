@@ -17,19 +17,23 @@
                 <input type="text" class="form-control" placeholder="Ingresa numero 1" aria-label="numero1" id="num1">
             </div>
             <div class="row">
-                <select class="form-select" aria-label="Default select example">
+                <select id="typeOperation" class="form-select" aria-label="Default select example">
                     <option value="+">Sumar</option>
                     <option value="-">Resta</option>
+                    <option value="*">Multiplicacion</option>
+                    <option value="/">Division</option>
+                    <option value="**">Potencia</option>
                 </select>
             </div>
             <div class="row">
                 <input type="text" class="form-control" placeholder="Ingresa numero 2" aria-label="numero2" id="num2">
             </div>
             <div class="row">
-                <button type="button" class="btn btn-primary">Haz operacion</button>
+                <button id="operation" type="button" class="btn btn-primary">Haz operacion</button>
             </div>
             <div class="row">
                 <strong>Resultado: </strong>
+                <div id="result"></div>
             </div>
         </div>
     </div>

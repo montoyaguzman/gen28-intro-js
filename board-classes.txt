@@ -11,3 +11,14 @@ Debido a que son mas comprensibles y mantenibles.
 
 Standard
 Fijo en alguna norma o certificacion y siempre debe ser asi.
+
+Web API
+Conjunto de funcionalidad que nos da el navegador al momento de programar en js
+
+Errores en tiempo de compilacion (tiempo de interpretacion)
+Errores en tiempo ejecucion
+
+Best practices
+Clean code
+
+Excepciones

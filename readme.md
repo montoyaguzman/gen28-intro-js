@@ -88,7 +88,7 @@ Las variables se usan para almacenar datos un espacio especifico. Generalmente e
 
 Los valores por defecto representan el valor con el que se debe inicializar cada tipo de variable cuando no se conoce su valor especifico. Es una buena practica inicializar todas nuestras variables por defecto. 
 
-El valor por defecto de cada tipo de dato es:
+El **valor por defecto** de cada tipo de dato es:
 
 * String y char "".
 * Number int 0.
@@ -112,16 +112,16 @@ En JS existen los siguiente metodos como principales formas de parseo:
 
 Nos ayudan a controlar caminos o decisiones en nuestro sistema, se basa en la evluación de una o mas condiciones.
 
-* if, else if, else.
-* switch.
+* **if, else if, else.**
+* **switch.**
 
 #### Ciclos
 
 Nos ayudan a repetir cierta lógica de programación N veces.
 
-* for.
-* while.
-* do while.
+* **for.**
+* **while.**
+* **do while.**
 
 Todos los ciclos tienen un inicio, condición, razón de cambio y puede ir en orden descendente o ascendente.
 
@@ -200,7 +200,7 @@ Existen herramientas que nos facilitan el desarrollo. Estas herramientas son **c
 
 Existen de dos tipos principales:
 
-* ****Liberarias:** Permiten solucionar un problema concreto.**
+* ****Librerias:** **Permiten solucionar un problema concreto.
 * **Frameworks:** Brinda un set de herramientas para desarrollar sistemas o aplicaciones. Un framework, por lo general, contiene varias librerías y brinda soluciones a varias, provee buenas prácticas y resulta toda una experiencia de desarrollo.
 
 Cómo hasta este punto ya se sabe más del desarrollo HTML/CSS y de JS apenas se esta aprendiendo comenzaremos hablando de los frameworks orientados a simplificarnos el desarrollo del maquetado.
