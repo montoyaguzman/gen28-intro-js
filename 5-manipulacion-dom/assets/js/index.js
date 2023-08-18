@@ -13,7 +13,7 @@ formElement.addEventListener('submit', function (event) {
 
     // 3. Busco el radio que seleccionaron para el status
     for (let i=0; i < radioNodeList.length; i++) {
-        if (radioNodeList[i].checked === true) {
+        if (radioNodeList[i].checked) {
             selectedRadioElement = radioNodeList[i];
         }
     }
@@ -36,7 +36,7 @@ formElement.addEventListener('submit', function (event) {
     renderViewLanguages(languagesArray);
 
     // 8. Actualizar la barra de totales
-
+    renderTotal();
 
 });
 
@@ -54,8 +54,28 @@ function renderViewLanguages(arrLanguages) {
 
         // agregarle estilos
         liElement.classList.add('list-group-item', 'd-flex', 'justify-content-between');
-        iconElement.classList.add('bi', 'bi-play-circle-fill', 'text-success');
+        
+        // validar el status para saber que icono pintarle
+        const currentStatus = arrLanguages[i].status;
+        
+        if (currentStatus === 'standBy') {
+            iconElement.classList.add('bi', 'bi-pause-circle-fill', 'text-warning');
+        } else if (currentStatus === 'start') {
+            iconElement.classList.add('bi', 'bi-check-circle-fill', 'text-primary');
+        } else if (currentStatus === 'finished') {
+            iconElement.classList.add('bi', 'bi-play-circle-fill', 'text-success');
+        }
+
         buttonElement.classList.add('bi', 'bi-trash3-fill', 'text-danger');
+        buttonElement.setAttribute('index', i);
+        buttonElement.addEventListener('click', function(event) {
+            const positionStr = event.target.getAttribute('index');
+            const position = parseInt(positionStr);
+            languagesArray.splice(position, 1);
+            cleanView();
+            renderViewLanguages(languagesArray);
+            renderTotal();
+        });
 
         // hacer aparecer las etiquetas en el DOM
         ulElement.appendChild(liElement);
@@ -68,4 +88,35 @@ function renderViewLanguages(arrLanguages) {
 
 function cleanView() {
     ulElement.innerHTML = '';
+}
+
+function renderTotal(){
+    const totalElement = document.querySelector('#language-all');
+    const completeElement = document.querySelector('#language-complete');
+    const pendingElement = document.querySelector('#language-pending');
+    totalElement.innerHTML = languagesArray.length;
+    completeElement.innerHTML = getCompleted(languagesArray);
+    pendingElement.innerHTML =  getPendings(languagesArray);
+}
+
+function getCompleted(arrLanguages) {
+    // finished
+    let countFinished = 0;
+    for(let i =0; i < arrLanguages.length; i++) {
+        if (arrLanguages[i].status === 'finished') {
+            countFinished++;
+        }
+    }
+    return countFinished;
+}
+
+function getPendings(arrLanguages) {
+    // standBy y start
+    let countPendings = 0;
+    for(let i =0; i < arrLanguages.length; i++) {
+        if (arrLanguages[i].status === 'standBy' || arrLanguages[i].status === 'start') {
+            countPendings++;
+        }
+    }
+    return countPendings;
 }
