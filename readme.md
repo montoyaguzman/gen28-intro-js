@@ -1,4 +1,4 @@
-# JavaScript
+# bJavaScript
 
 Este documento es una **sintesis de la kata** (clases, campus, tareas y proyectos) **más temas extra** (estrechamente relacionados) para brindar la **posibilidad** al estudiante **de ampliar** sus **conocimientos**. Para su mejor aprovechamiento se recomienda **leerlo como guía** y **ampliar sus notas** con base en **investigación/autoestudio** y **ejercicios** subirlo a su propio repositorio.
 
@@ -198,7 +198,7 @@ Existen herramientas que nos facilitan el desarrollo. Estas herramientas son **c
 
 Existen de dos tipos principales:
 
-* ****Librerias:** **Permiten solucionar un problema concreto.
+* ****Librerias:**** Permiten solucionar un problema concreto.
 * **Frameworks:** Brinda un set de herramientas para desarrollar sistemas o aplicaciones. Un framework, por lo general, contiene varias librerías y brinda soluciones a varias, provee buenas prácticas y resulta toda una experiencia de desarrollo.
 
 Cómo hasta este punto ya se sabe más del desarrollo HTML/CSS y de JS apenas se esta aprendiendo comenzaremos hablando de los frameworks orientados a simplificarnos el desarrollo del maquetado.
