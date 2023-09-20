@@ -301,6 +301,10 @@ Ir a la carpeta [7-proyecto](./7-proyecto/readme.md)
 
 Se encuentran en la [carpeta assets](./assets/) de este mismo repo.
 
+### Glosario
+
+Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
+
 ### Informacion y recursos extra
 
 1. [EloquentJS](https://eloquentjavascript.net/).
@@ -308,7 +312,3 @@ Se encuentran en la [carpeta assets](./assets/) de este mismo repo.
 3. [Código limpio (libro)](https://ns2.elhacker.net/descargas/manuales/Lenguajes%20de%20Programacion/Codigo%20limpio%20-%20Robert%20Cecil%20Martin.pdf).
 4. [Codewars]().
 5. [Ejericicios para JS](./6-tareas/6.8-more-exercises.js).
-
-### Glosario
-
-Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
