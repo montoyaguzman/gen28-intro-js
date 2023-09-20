@@ -1,4 +1,4 @@
-# bJavaScript
+# JavaScript
 
 Este documento es una **sintesis de la kata** (clases, campus, tareas y proyectos) **más temas extra** (estrechamente relacionados) para brindar la **posibilidad** al estudiante **de ampliar** sus **conocimientos**. Para su mejor aprovechamiento se recomienda **leerlo como guía** y **ampliar sus notas** con base en **investigación/autoestudio** y **ejercicios** subirlo a su propio repositorio.
 
@@ -19,9 +19,10 @@ Este documento es una **sintesis de la kata** (clases, campus, tareas y proyecto
 2. [Fundamentos de JavaScript](#fundamentos-de-javascript)
 3. [Frameworks CSS](#frameworks-css)
 4. [Manipulacion del DOM](#manipulacion-del-dom)
-5. [Presentaciones](#presentaciones)
-6. [Informacion y recursos extra](#informacion-y-recursos-extra)
+5. [Proyecto del módulo](#proyecto-del-módulo)
+6. [Presentaciones](#presentaciones)
 7. [Glosario](#glosario)
+8. [Informacion y recursos extra](#informacion-y-recursos-extra)
 
 ### Logica e introduccion a los lenguajes de programacion
 
@@ -291,6 +292,10 @@ A continuación se lista los eventos más comunes en el uso cotidiano del desarr
 |                    | onshow                | show                |                        |
 |                    | onstorage             | storage             |                        |
 |                    | onwheel               | wheel               |                        |
+
+### Proyecto del módulo
+
+Ir a la carpeta [7-proyecto](./7-proyecto/readme.md)
 
 ### Presentaciones
 
